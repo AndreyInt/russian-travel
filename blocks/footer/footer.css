@@ -1,0 +1,10 @@
+.footer {
+  max-width: 90.625%;
+  margin: 92px auto 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: start;
+  gap: 18px;
+  padding: 0 0 24px 0;
+  box-sizing: border-box;
+}
