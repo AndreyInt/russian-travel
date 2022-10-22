@@ -8,7 +8,7 @@
   margin: 48px 0 0 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023.9px) {
   .place__image {
     width: 47.222%;
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 767.9px) {
   .place__image {
     width: 100%;
     margin: 48px auto 0 auto;

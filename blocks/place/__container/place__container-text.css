@@ -3,7 +3,7 @@
   margin: 48px 0 0 0;
 }
 
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 767.9px) {
     .place__container-text {
       min-width: 288px;
       width: 90%;
@@ -11,7 +11,7 @@
     }
   }
 
-  @media screen and (max-width: 1023.99) {
+  @media screen and (max-width: 1023.9) {
     .place__container-text {
       width: 48.889%;
     }

@@ -1,6 +1,5 @@
 .cover__title {
   width: 560px;
-  height: 152px;
   margin: 0 auto 0 auto;
   color: white;
   font-weight: 900;
@@ -13,7 +12,6 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    height: 70px;
     width: 288px;
   }
 }

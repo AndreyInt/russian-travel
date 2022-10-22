@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-@media screen and (max-width:1023.99) {
+@media screen and (max-width:1023.9) {
   .place__text {
     font-size: 16px;
     margin: 48px 0 25px 0;
@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (max-width:767.99px) {
+@media screen and (max-width:767.9px) {
   .place__text {
     font-size: 16px;
     margin: 32px 0 25px 0;
