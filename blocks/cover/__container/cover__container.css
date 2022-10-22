@@ -1,0 +1,16 @@
+.cover__container {
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;   /* вычитаем (высоту заголовков с учетом отступа между ними)/2 для позиционирования по центру */
+  margin-left: -280px;  /* тоже самое с шириной */
+}
+
+@media screen and (max-width:768px) {
+  .cover__container {
+    margin-top: -67px;
+    margin-left: -144px;
+  }
+}

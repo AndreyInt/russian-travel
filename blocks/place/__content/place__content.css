@@ -1,0 +1,11 @@
+.place__content {
+  width: 48%;
+  max-width: 460px;
+  min-width: 320px;
+}
+
+/* @media screen and (max-width:768px) {
+  .place__content {
+    width: 100%;
+  }
+} */

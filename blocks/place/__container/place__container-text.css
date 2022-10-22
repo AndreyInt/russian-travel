@@ -1,0 +1,25 @@
+.place__container-text {
+  width: 49.138%;
+  margin: 48px 0 0 0;
+}
+
+@media screen and (max-width: 767.99px) {
+    .place__container-text {
+      min-width: 288px;
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 1023.99) {
+    .place__container-text {
+      width: 48.889%;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .place__container-text {
+      width: 49.187%;
+      max-width: 484px;
+    }
+  }
