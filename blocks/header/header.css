@@ -1,14 +1,27 @@
 .header {
-  width: 90.625%;
-  position: relative;
+  width: 92.625%;
+  display: flex;
+  justify-content: space-around;
   max-height: 52px;
   margin: 0 auto;
   padding-top: 28px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767.9px) {
   .header {
     width: 90%;
     padding-top: 16px;
+  }
+}
+
+@media screen and (max-width:1279.9px) {
+  .header {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width:1023.9px) {
+  .header {
+    width: 93.75%;
   }
 }
