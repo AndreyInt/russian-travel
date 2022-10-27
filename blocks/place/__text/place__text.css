@@ -1,7 +1,7 @@
 .place__text {
   font-size: 18px;
   font-weight: 400;
-  line-height: 163%;
+  line-height: 29.34px;
   color: white;
   margin: 0 0 26px 0;
 }
@@ -10,10 +10,10 @@
   margin: 0;
 }
 
-@media screen and (max-width:1023.9) {
+@media screen and (max-width:1023.9px) {
   .place__text {
     font-size: 16px;
-    margin: 48px 0 25px 0;
+    line-height: 26.08px;
   }
 }
 

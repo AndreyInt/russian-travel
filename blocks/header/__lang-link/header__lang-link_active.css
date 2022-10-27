@@ -1,5 +1,3 @@
 .header__lang-link_active {
-  position: absolute;
-  bottom: 6px;
-  right: 47px;
+  text-decoration: underline;
 }

@@ -1,6 +1,6 @@
 .place__image {
   width: 47.414%;
-  /* max-width: 460px; */
+  max-width: 460px;
   min-width: 320px;
   height: fit-content;
   object-fit: cover;
@@ -14,9 +14,14 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+
+@media screen and (min-width: 1279.9px) {
   .place__image {
     width: 46.748%;
+    /* Лучще, если картинка будет занимать весь контейнер.  */
+    /* Тогда изображение не будет совпадать пиксель в пиксель по размеру с брифом, будет плыть отступ между колонками
+    ( заголовком и ссылками, изображением и текстом) */
+
   }
 }
 
